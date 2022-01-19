@@ -1,5 +1,6 @@
 .team-container {
     margin-bottom: 1rem;
+    margin-top: 1rem;
 }
 
 .team-container ul {
@@ -12,4 +13,9 @@ li {
     list-style: none;
     font-size: 1.2rem;
     margin-bottom: 0.3rem;
+}
+
+p {
+    padding: 0.3rem;
+    color: red;
 }

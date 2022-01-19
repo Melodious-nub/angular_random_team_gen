@@ -1,6 +1,7 @@
 <div class="team-container">
     <h4>Team {{index+1}}</h4>
     <ul>
-        <li *ngFor="let listTeam of team">{{ listTeam }}</li>
+        <li *ngFor="let listTeam of team">{{ listTeam | titlecase}}</li>
     </ul>
+    <p>{{currentDate | date:'medium'}}</p>
 </div>
